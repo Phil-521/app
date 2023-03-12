@@ -151,17 +151,17 @@ if __name__ == '__main__':
                     image = Image.open('自我介绍图片1.jpg')
                     st.image(image, caption='a picture of my daily life ~ ~ ~', width=300)
             with tab2:
-                with open(r'D:\博士\博一\app\translation\视频文件\3月11日.mp4', 'rb') as f:
+                with open('可能.mp4', 'rb') as f:
                     video_bytes = f.read()
                 st.video(video_bytes, format="video/mp4", start_time=0)
             with tab3:
                 col1, col2 = st.columns(2)
                 with col1:
                     st.header("A cat")
-                    st.image("https://static.streamlit.io/examples/cat.jpg")
+                    st.image("cat.jpg")
                 with col2:
                     st.header("A dog")
-                    st.image("https://static.streamlit.io/examples/dog.jpg")
+                    st.image("dog.jpg")
 
 
 
