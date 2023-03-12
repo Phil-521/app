@@ -5,9 +5,6 @@ import time
 import base64
 import os
 import requests
-import streamlit as st
-from PIL import Image
-from streamlit_drawable_canvas import st_canvas
 import json
 
 
