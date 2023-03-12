@@ -6,6 +6,7 @@ import base64
 import os
 import requests
 import json
+import torch
 
 
 
@@ -80,7 +81,6 @@ def gu_xian():
         EncoderDecoderModel,
         AutoTokenizer
     )
-    import torch
     model = st.selectbox("选择翻译模型", ["古文翻译到现代文","现代文翻译成古文"])
     text = st.text_area("请输入文本")
     if st.button("翻译古文"):
