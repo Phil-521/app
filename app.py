@@ -158,10 +158,10 @@ if __name__ == '__main__':
                 col1, col2 = st.columns(2)
                 with col1:
                     st.header("A cat")
-                    st.image("cat.jpg")
+                    st.image("https://static.streamlit.io/examples/cat.jpg")
                 with col2:
                     st.header("A dog")
-                    st.image("dog.jpg")
+                    st.image("https://static.streamlit.io/examples/dog.jpg")
 
 
 
