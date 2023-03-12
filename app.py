@@ -145,10 +145,10 @@ if __name__ == '__main__':
             with tab1:
                 col1, col2, = st.columns(2)
                 with col1:
-                    image = Image.open(r'D:\博士\博一\app\translation\自我介绍图片.jpg')
+                    image = Image.open('自我介绍图片.jpg')
                     st.image(image, caption='a picture of my daily life ~ ~ ~', width=300)
                 with col2:
-                    image = Image.open(r'D:\博士\博一\app\translation\自我介绍图片1.jpg')
+                    image = Image.open('自我介绍图片1.jpg')
                     st.image(image, caption='a picture of my daily life ~ ~ ~', width=300)
             with tab2:
                 with open(r'D:\博士\博一\app\translation\视频文件\3月11日.mp4', 'rb') as f:
